@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity"
+    >
+
+    <Button
+        android:id="@+id/btnOsvjezi"
+        android:layout_width="177dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/purple_500"
+        android:onClick="btnOsvjezi"
+        android:text="Osvjezi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPokreni"
+        android:layout_width="278dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="348dp"
+        android:height="80dp"
+        android:background="@color/purple_500"
+        android:onClick="btnPokreni"
+        android:text="Pokreni"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnZaustavi"
+        android:layout_width="278dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="556dp"
+        android:background="@color/purple_500"
+        android:onClick="btnZaustavi"
+        android:text="Zaustavi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSuprotanSmjer"
+        android:layout_width="278dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="452dp"
+        android:background="@color/purple_500"
+        android:onClick="btnRotirajUSuprotnomSmjeru"
+        android:text="Rotiraj u suprotnom smjeru"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPovezi"
+        android:layout_width="177dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="104dp"
+        android:background="@color/purple_500"
+        android:onClick="btnPovezi"
+        android:text="Poveži"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/listaUredjajaGUI"
+        android:layout_width="379dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/purple_500"
+        android:popupBackground="@color/purple_500"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageDCMotor"
+        android:layout_width="165dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="197dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dcmotor" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
